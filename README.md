@@ -8,3 +8,5 @@ Para rodar o jogo:
 3) Lembrando que o valor das variáveis serverHOST e nameName devem ser o mesmo.
 4) Para rodar o quiz apenas localmente, atribua 'localhost' nas variáveis serverHOST e serverName.
 5) Para rodar o jogo, sempre execute primeiro o arquivo servidor.py.
+6) Para rodar em duas máquinas diferentes, atribua o valor do ip da máquina que você utilizará como servidor para a variável serverHOST, que está presente no arquivo server.py. Após isso, atribue o mesmo valor de ip na variável serverName presente no arquivo cliente.py.
+7) Lembrando que para encontrar o valor do ip da sua máquina, apenas abra o prompt de comando e digite: ipconfig, o valor do ip estará em "Endereço IPV4.
